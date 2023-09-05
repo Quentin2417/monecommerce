@@ -1,5 +1,5 @@
 <?php
-require('./inc/init.inc.php');
+require('./inc/init_inc.php');
 // Notre accueil
 require('./inc/haut.inc.php');
 ?>
