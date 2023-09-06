@@ -1,0 +1,6 @@
+# librairies mode
+/vendor/
+# variables d'environnement
+.env 
+# Fichier init BDD
+/database/

@@ -2,7 +2,7 @@
 </section>
 <footer>
     <div class="conteneur">
-    <?php echo date ('y'); ?> -Tous froits reservés - MonNomPrenom.
+    <?php echo date ('Y'); ?> -Tous droits reservés - MonNomPrenom.
     </div>
 </footer>
 </body>
