@@ -15,7 +15,7 @@ function executeRequete($req)
 // Affichage de notre débogage
 function debug($var, $mode = 1)
 {
-    echo '<div style="background: lightgrey ; padding: 5px; float: right; clear: both; ">';
+    echo '<div style="background: lightgreen ; padding: 5px; float: right; clear: both; ">';
     $trace = debug_backtrace();
     $trace = array_shift($trace);
     echo "Debug demandé dans le fichier : $trace[file] à la ligne $trace[line].";
