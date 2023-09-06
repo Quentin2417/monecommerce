@@ -4,7 +4,7 @@ require __DIR__ . '/../vendor/autoload.php';
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/../')->load();
 //.............BDD
 $mysqli = new mysqli($_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], $_ENV['DB_NAME']);
-if($mysqli->connect_error) die('Un probleme est survenue lors de la tentative de connection à la BDD : ' .$mysqli->connect_error);
+if($mysqli->connect_error) die('Un probleme est survenue lors de la tentative de connection à la BDD : ' . $mysqli->connect_error);
 // $myslqi-> set_charset("utf8");
 //.......... SESSION
 session_start();
