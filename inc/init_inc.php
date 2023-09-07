@@ -11,7 +11,7 @@ session_start();
 //............CHEMIN
 // print_r($_SERVER);
 define ("RACINE_SITE", "http://" . $_SERVER['HTTP_HOST'] . "/");
-
+$contenu= "";
 require('./inc/function.inc.php');
 // debug($mysqli, 0);
 
