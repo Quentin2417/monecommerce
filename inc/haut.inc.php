@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="conteneur">
+        <!-- <div class="conteneur"> -->
             <nav class="topnav" id="mytopnav">
                 <a href="<?php echo RACINE_SITE; ?>inscription.php">Inscription</a>
                 <a href="<?php echo RACINE_SITE; ?>connexion.php">Connexion</a>
