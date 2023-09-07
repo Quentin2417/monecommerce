@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 0fr 1fr 0fr;
+
+}
+header,
+footer{
+    background-color: #333;
+}

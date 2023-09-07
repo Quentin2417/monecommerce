@@ -13,7 +13,7 @@ session_start();
 define ("RACINE_SITE", "http://" . $_SERVER['HTTP_HOST'] . "/");
 
 require('./inc/function.inc.php');
-debug($mysqli, 0);
+// debug($mysqli, 0);
 
 // define("RACINE_SITE", "http://localhost:4000/");
 // Déclarer une variable d’environnement
