@@ -31,3 +31,13 @@ function debug($var, $mode = 1)
     }
     echo '</div>';
 }
+// savoir si un internaute est connecté
+function internauteEstConnecte() {
+    if(!isset($_SESSION['membre'])) return false;
+    else return true;
+}
+// savoir si un internaute est connecté et est administrateur
+function internauteEstConnecterEtEstAdmin() {
+    if(internauteEstConnecte() && $_SESSION['membre']['statut'] == 1) return true;
+    else return false;
+}
