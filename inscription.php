@@ -51,5 +51,4 @@ if($_POST){
     <!-- <input type="submit" name="inscription" value="S'inscrire"> -->
     <button>S'inscrire</button>
 </form>
-</form>
 <?php require('./inc/bas.inc.php'); ?>

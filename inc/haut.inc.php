@@ -28,6 +28,9 @@
                     echo '<a href="' . RACINE_SITE . 'panier.php">Voir votre panier</a>';
                 }   
                 ?>
+                 <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
             </nav>
         </div>
     </header>
