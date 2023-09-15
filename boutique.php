@@ -1,4 +1,5 @@
 <?php require_once("./inc/init_inc.php"); 
+$title = " | Boutique";
 // traitement
 // ---------------- Affichage des catégories ---------------
 $categorie_des_produits = executeRequete("SELECT DISTINCT categorie FROM produit");
@@ -11,7 +12,7 @@ $contenu .= '</ul>';
 $contenu .= '</div>';
 // affichage des produits
 $contenu .= '<div class="boutique-produits">';
-if (isset($_GET['categorie'])){
+if (isset($_GET['categorie'])) {
     $donnees = executeRequete("SELECT id_produit, titre, photo, prix FROM produit WHERE categorie='$_GET[categorie]'");
     while ($produit = $donnees->fetch_assoc()) {
         $contenu .= '<div class="boutique-produit">';

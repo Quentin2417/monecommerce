@@ -1,4 +1,5 @@
-<?php require_once("inc/init_inc.php"); ?>
+<?php require_once("inc/init_inc.php"); 
+$title = " | Connexion ";?>
 <!-- traitement -->
 <?php
 if(isset($_GET['action']) && $_GET['action'] == "deconnexion") {

@@ -1,4 +1,6 @@
-<?php require_once("inc/init_inc.php"); ?>
+<?php require_once("inc/init_inc.php"); 
+$title = " | Profil";?>
+
 <?php
 if (!internauteEstConnecte()) header("location:connexion.php");
 $contenu .= '<div class="profil"><p class="centre">Bonjour <strong>' . $_SESSION['membre']['pseudo'] . '</strong></p>';

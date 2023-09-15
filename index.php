@@ -1,5 +1,6 @@
 <?php
 require('./inc/init_inc.php');
+$title = " | Accueil"; 
 require('./inc/haut.inc.php');
 
 ?>

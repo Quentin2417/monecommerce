@@ -1,4 +1,5 @@
-<?php require('./inc/init_inc.php'); ?>
+<?php require('./inc/init_inc.php'); 
+$title = " | Inscription"; ?>
 <?php
 if($_POST){
     // debug($_POST);

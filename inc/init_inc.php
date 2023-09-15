@@ -1,4 +1,6 @@
 <?php
+// titre pages 
+$title = '';
 // configuration php
 require __DIR__ . '/../vendor/autoload.php';
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/../')->load();
